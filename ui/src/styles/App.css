@@ -1,0 +1,18 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #313131, #2c2c2c);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+}

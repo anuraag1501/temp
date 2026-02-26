@@ -1,0 +1,88 @@
+.pop-up-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.pop-up-btn-div .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.5rem;
+    height: 4vh;
+    width: 9.5vw;
+    border-radius: 0.3rem;
+    border: 1px solid;
+    font-weight: 600;
+    background-color: #06d6af;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.content-area {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+    flex-grow: 1;
+    box-sizing: border-box;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.product-footer {
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    height: 3vh;
+    width: 100%;
+    justify-content: end;
+}
+
+.product-container .btn-action {
+    margin-left: 1rem;
+    font-size: 1em;
+    font-weight: 600;
+    height: 3.5vh;
+    width: 5vw;
+    border : 1px solid #06d6af;
+    border-radius: 0.2rem;
+    transition: all 0.3s ease;
+    cursor: pointer; 
+}
+
+.product-container .btn-action.save-btn {
+    background-color: #06d6af;
+}
+
+.product-container .btn-action.cancel-btn{
+    background-color: #232323;
+    color: white;
+}
+
+.product-container .btn-action.save-btn:hover {
+    background-color: #019e81;
+    border-color: #05b898;
+    box-shadow: 0 4px 8px rgba(6, 214, 175, 0.2);
+}
+
+.product-container .btn-action.cancel-btn:hover {
+    background-color: #3a3a3a;
+    border-color: #3a3a3a;
+    box-shadow: 0 4px 8px rgba(35, 35, 35, 0.2);
+}
+
+.vertical-line-popup {
+    height: 1px;
+    width: 100%;
+    background-color: #5f5f5f;
+    margin:0 0 2rem 0;
+}

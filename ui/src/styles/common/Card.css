@@ -1,0 +1,44 @@
+.card-container {
+    background-color: white;
+    height: 45vh;
+    width: 33vh;
+    overflow: hidden;
+    color: black;
+    border-radius: 1rem;
+    padding: 1.7rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+}
+
+.card-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.3);}
+
+.card-container .logo {
+    height: 30%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.card-container .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-container .body .title {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.card-container .body .description {
+    margin-top: 0.5rem;
+}
+
+.card-container .footer {
+    font-size: 5rem;
+    font-weight: 600;
+}

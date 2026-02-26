@@ -1,0 +1,86 @@
+.filterpane-container {
+    height: 7rem;
+    display: flex;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 0rem 2rem;
+    align-items: center;
+    background-color: #1a1a1a;
+    justify-content: space-between;
+}
+
+.filterpane-container .info-div {
+    display: flex;
+    column-gap: 1.1rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.filterpane-container .info-div .title {
+    font-size: 1.1em;
+}
+
+.filterpane-container .info-div .back-btn {
+    color: #06d6af;
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filterpane-container .info-div .back-btn .btn-text {
+    color: white;
+}
+
+.filterpane-container .filter-div {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.2rem;
+}
+
+.filterpane-container .toggle-info {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    color: #06d6af;
+}
+
+.filterpane-container .toggle-info .info {
+    color: white;
+}
+
+.filterpane-container .category-div {
+    display: flex;
+    column-gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.filterpane-container .filter-icon-div {
+    display: flex;
+    padding: 0.6rem 0.8rem;
+    border-radius: 0.3rem;
+    column-gap: 0.2rem;
+    align-items: center;
+    border: 1px solid #06d6af;
+}
+
+.filterpane-container .filter-icon-div .filter-label {
+    color: white;
+}
+
+.filterpane-container .endAdornment-div {
+    display: flex;
+}
+
+.vertical-line {
+    width: 1px;
+    align-self: stretch;
+    background-color: #bbbbbb;
+}
+
+.mr-fix {
+    margin-right: 1.2rem;
+}
